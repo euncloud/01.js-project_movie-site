@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUNFLIX</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <body>
+        <nav class="navbar">
+            <h1 class="eunflix-title" id="eunflix-title">EUNFLIX</h1>
+            <div class="eunflix-menubox">
+                <input class="search-input" id="search-input" type="text" placeholder="영화 제목으로 검색">
+                <img class="magnifier" src="./assets/magnifier.png" alt="돋보기 아이콘">
+                <img class="book-mark" id="book-mark" src="./assets/hearts.png" alt="북마크 아이콘">
+            </div>
+        </nav>
+
+        <p class="movie-container-title" id="movie-container-title">TOP 20</p>
+        <div class="movie-container">
+            <div id="scroll-left"><img class="arrow-button" src="./assets/left-arrow.png" alt="버튼 이미지"></div>
+
+            <div class="scroll-area" id="scroll-area">
+                <!-- 영화 카드 추가 -->
+                <div class='search-notice' id="search-notice">일치하는 영화가 없습니다.</div>
+            </div>
+
+            <div id="scroll-right"><img class="arrow-button" src="./assets/right-arrow.png" alt="버튼 이미지"></div>
+            <!-- 추가적인 영화 카드들 -->
+        </div>
+
+        <div class="modal" id="movie-modal">
+            <div class="modal-container" id="modal-container">
+
+                <!-- modal.js movie-api.js-->
+
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2024 SPARTA 내일배움캠프. Eun-Yeong Park</p>
+    </footer>
+
+
+    <!-- script -->
+    <script type="module" src="./js/index-style.js"></script>
+    <script type="module" src="./js/movie-api.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/book-mark.js"></script>
+</body>
+
+</html>
