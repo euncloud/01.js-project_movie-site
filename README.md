@@ -49,8 +49,6 @@
     - 이 과제는 `모든 필수 기능을 마친 후` 성능 최적화를 도전하고 싶다면 시도해 보세요.
     - **중요 포인트**: 성능 최적화를 통해 불필요한 API 호출을 줄이는 것을 목표로 합니다.
 
-## 설치 방법
+## 배포 링크
 
-1. 이 리포지토리를 클론합니다.
-   ```bash
-   git clone https://github.com/euncloud/01.js-project_movie-site.git
+1. (https://euncloud.github.io/01.js-project_movie-site/)
