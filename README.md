@@ -51,4 +51,4 @@
 
 ## 배포 링크
 
-1. (https://euncloud.github.io/01.js-project_movie-site/)
+1. https://euncloud.github.io/01.js-project_movie-site/
